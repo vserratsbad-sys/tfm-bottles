@@ -1,0 +1,9 @@
+ultralytics==8.4.14
+optuna>=3.0.0
+opencv-python==4.13.0
+numpy==1.26.4
+pandas==3.0.3
+matplotlib==3.10.8
+paddlepaddle==2.6.1
+paddleocr==2.7.3
+Pillow==11.3.0

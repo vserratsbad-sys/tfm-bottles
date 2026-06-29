@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────
+#  Dataset YOLO26n
+#  Edita: path, nc y names según tu proyecto
+# ─────────────────────────────────────────────
+
+path: ./data/DS_FINAL       # ruta raíz del dataset
+train: images/train
+val:   images/val
+test: images/test    # opcional
+
+nc: 7                  # número de clases  ← EDITAR
+names:
+  0: TAPON_OK            # nombres de clase   ← EDITAR
+  1: TAPON_NOK 
+  2: ETIQUETA_OK
+  3: ETIQUETA_NOK 
+  4: TRAZABILIDAD 
+  5: AGUA_OK 
+  6: AGUA_NOK 
